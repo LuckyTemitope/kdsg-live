@@ -14,3 +14,13 @@
 <p align="center">
     This is the source code for the online portfolio hosted on KDSG.LIVE
 </p>
+<h2>Development Environment Setup</h2>
+<p>
+<ol>
+    <strong>Following steps are required to be followed before starting development</strong>
+    <li>Make sure gatsby is installed globally. <code>npm install -g gatsby -y </code>
+<li>Create a new <code>.env</code> file to hold the environment variables required to contact the firebase firestore.</li>
+<li>Go the <code>Gatsby-config.js</code> to get the list of environment variables and copy all the variables to the <code>.env</code> file</li>
+<li>Get the configuration from your firebase console and paste all the values that are required.</li>
+</ol>
+</p>
